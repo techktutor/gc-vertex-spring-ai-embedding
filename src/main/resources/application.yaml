@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: gc-vertex-spring-ai-embedding
+  ai:
+    vertex:
+      ai:
+        embedding:
+          project-id: gc-vertex-spring-ai-project
+          location: us-central1
+          text:
+            options:
+              model: gemini-embedding-004
+server:
+  servlet:
+    context-path: /gc-vertex-spring-ai-app
